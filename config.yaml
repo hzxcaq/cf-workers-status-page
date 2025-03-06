@@ -34,12 +34,7 @@ monitors:
 
   - id: img.hzxcaq.us.kg
     name: img.hzxcaq.us.kg
-    url: 'https://img.hzxcaq.us.kg/'
+    url: 'https://img.hzxcaq.us.kg/favicon.jpeg'
     method: GET
     expectStatus: 200
 
-  - id: status.hzxcaq.us.kg
-    name: status.hzxcaq.us.kg
-    url: 'https://status.hzxcaq.us.kg/'
-    method: GET
-    expectStatus: 200
