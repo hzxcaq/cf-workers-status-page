@@ -32,8 +32,14 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: fn.hzxcaq.us.kg
-    name: fn.hzxcaq.us.kg
-    url: 'https://fn.hzxcaq.us.kg/'
+  - id: img.hzxcaq.us.kg
+    name: img.hzxcaq.us.kg
+    url: 'https://img.hzxcaq.us.kg/'
+    method: GET
+    expectStatus: 200
+
+  - id: status.hzxcaq.us.kg
+    name: status.hzxcaq.us.kg
+    url: 'https://status.hzxcaq.us.kg/'
     method: GET
     expectStatus: 200
