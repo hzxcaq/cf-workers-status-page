@@ -15,26 +15,17 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: comment.hzxcaq.us.kg # unique identifier
-    name: comment.hzxcaq.us.kg
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://comment.hzxcaq.us.kg/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-
-  - id: blog.hzxcaq.us.kg
-    name: blog.hzxcaq.us.kg
+  - id: blog.hxzcaq.ip-ddns.com
+    name: blog.hxzcaq.ip-ddns.com
     description: 'Built for anything connected to the Internet.'
-    url: 'https://blog.hzxcaq.us.kg'
+    url: 'https://blog.hxzcaq.ip-ddns.com'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: img.hzxcaq.us.kg
-    name: img.hzxcaq.us.kg
-    url: 'https://img.hzxcaq.us.kg/favicon.jpeg'
+  - id: img.hxzcaq.ip-ddns.com
+    name: img.hxzcaq.ip-ddns.com
+    url: 'https://img.hxzcaq.ip-ddns.com/favicon.jpeg'
     method: GET
     expectStatus: 200
 
