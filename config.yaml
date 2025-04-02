@@ -29,3 +29,11 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: https://comment.919497.xyz/
+    name: https://comment.919497.xyz/
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://comment.919497.xyz/'
+    method: GET
+    expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
+
